@@ -1,0 +1,28 @@
+KEKTECH NFT LAYER SUMMARY
+================================================================================
+
+LAYER COUNTS:
+  background: 11 files
+  body: 6 files
+  clothes: 17 files
+  eyes: 8 files
+  glasses: 4 files
+  hat: 14 files
+  special: 6 files
+  style: 3 files
+  tattoo: 5 files
+  tools: 11 files
+  glasses_for_xray: 4 files
+  style_for_xray: 3 files
+  tools_for_xray: 12 files
+
+TOTAL ANIMATION TEMPLATES NEEDED: ~43
+
+EXCEPTION RULES:
+  RIP: No tools, no hats
+  X-ray: No eyes, special accessory folders
+
+ANIMATION PRIORITIES:
+  HIGH: body
+  HIGH: eyes
+  HIGH: special

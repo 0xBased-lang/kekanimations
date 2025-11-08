@@ -1,0 +1,1404 @@
+{
+  "layers": {
+    "background": {
+      "UV": {
+        "filename": "UV.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.31163883209228516,
+        "transparency_percent": 0.0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/UV.png"
+      },
+      "astral": {
+        "filename": "astral.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.3123493194580078,
+        "transparency_percent": 0.0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/astral.png"
+      },
+      "circus": {
+        "filename": "circus.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "P",
+        "has_alpha": false,
+        "size_mb": 0.6021499633789062,
+        "transparency_percent": 0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/circus.png"
+      },
+      "creature_cloud": {
+        "filename": "creature_cloud.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 1.2292537689208984,
+        "transparency_percent": 0.0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/creature_cloud.png"
+      },
+      "crypto_wallstreet": {
+        "filename": "crypto_wallstreet.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "P",
+        "has_alpha": false,
+        "size_mb": 2.517428398132324,
+        "transparency_percent": 0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/crypto_wallstreet.png"
+      },
+      "darkside": {
+        "filename": "darkside.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "P",
+        "has_alpha": false,
+        "size_mb": 0.6242275238037109,
+        "transparency_percent": 0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/darkside.png"
+      },
+      "harmony": {
+        "filename": "harmony.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.31282615661621094,
+        "transparency_percent": 0.0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/harmony.png"
+      },
+      "psychedelic": {
+        "filename": "psychedelic.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "P",
+        "has_alpha": false,
+        "size_mb": 0.6437892913818359,
+        "transparency_percent": 0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/psychedelic.png"
+      },
+      "shining": {
+        "filename": "shining.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.3157825469970703,
+        "transparency_percent": 0.0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/shining.png"
+      },
+      "touch_grass": {
+        "filename": "touch_grass.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "P",
+        "has_alpha": false,
+        "size_mb": 0.7279024124145508,
+        "transparency_percent": 0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/touch_grass.png"
+      },
+      "void": {
+        "filename": "void.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.29231929779052734,
+        "transparency_percent": 0.0,
+        "avg_alpha": 255.0,
+        "is_background": true,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/background/void.png"
+      }
+    },
+    "body": {
+      "BasedAI": {
+        "filename": "BasedAI.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.7550239562988281,
+        "transparency_percent": 83.6496353149414,
+        "avg_alpha": 42.529975175857544,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/body/BasedAI.png"
+      },
+      "RIP": {
+        "filename": "RIP.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 1.180990219116211,
+        "transparency_percent": 79.95426654815674,
+        "avg_alpha": 51.86305546760559,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/body/RIP.png"
+      },
+      "diablo": {
+        "filename": "diablo.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.8457508087158203,
+        "transparency_percent": 83.53497982025146,
+        "avg_alpha": 42.614214181900024,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/body/diablo.png"
+      },
+      "ghastly": {
+        "filename": "ghastly.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.912811279296875,
+        "transparency_percent": 83.86373519897461,
+        "avg_alpha": 42.50753307342529,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/body/ghastly.png"
+      },
+      "normie": {
+        "filename": "normie.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.8274803161621094,
+        "transparency_percent": 83.46741199493408,
+        "avg_alpha": 42.53658890724182,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/body/normie.png"
+      },
+      "x-ray": {
+        "filename": "x-ray.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 1.2422609329223633,
+        "transparency_percent": 98.63529205322266,
+        "avg_alpha": 34.46527671813965,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/body/x-ray.png"
+      }
+    },
+    "clothes": {
+      "OG_Pepecoin": {
+        "filename": "OG_Pepecoin.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.8229846954345703,
+        "transparency_percent": 88.34786415100098,
+        "avg_alpha": 37.36884808540344,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/OG_Pepecoin.png"
+      },
+      "brain_owner": {
+        "filename": "brain_owner.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.7306394577026367,
+        "transparency_percent": 86.11674308776855,
+        "avg_alpha": 38.32039999961853,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/brain_owner.png"
+      },
+      "chad": {
+        "filename": "chad.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.8130455017089844,
+        "transparency_percent": 85.23015975952148,
+        "avg_alpha": 55.596001386642456,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/chad.png"
+      },
+      "dark": {
+        "filename": "dark.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.24146080017089844,
+        "transparency_percent": 86.70251369476318,
+        "avg_alpha": 37.38365578651428,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/dark.png"
+      },
+      "game_over": {
+        "filename": "game_over.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.30608463287353516,
+        "transparency_percent": 86.70251369476318,
+        "avg_alpha": 37.38365578651428,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/game_over.png"
+      },
+      "green": {
+        "filename": "green.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.588231086730957,
+        "transparency_percent": 88.50762844085693,
+        "avg_alpha": 37.39808893203735,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/green.png"
+      },
+      "hodler": {
+        "filename": "hodler.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.7666769027709961,
+        "transparency_percent": 86.10310554504395,
+        "avg_alpha": 38.32248115539551,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/hodler.png"
+      },
+      "hot_nacho": {
+        "filename": "hot_nacho.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.6426286697387695,
+        "transparency_percent": 87.2849702835083,
+        "avg_alpha": 37.610674142837524,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/hot_nacho.png"
+      },
+      "jeet": {
+        "filename": "jeet.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.8721075057983398,
+        "transparency_percent": 84.89542007446289,
+        "avg_alpha": 41.71277070045471,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/jeet.png"
+      },
+      "kekius": {
+        "filename": "kekius.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 1.1335010528564453,
+        "transparency_percent": 82.1742296218872,
+        "avg_alpha": 45.987162590026855,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/kekius.png"
+      },
+      "kexico": {
+        "filename": "kexico.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 1.160477638244629,
+        "transparency_percent": 79.47549819946289,
+        "avg_alpha": 53.19962954521179,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/kexico.png"
+      },
+      "kexico_short": {
+        "filename": "kexico_short.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 1.031123161315918,
+        "transparency_percent": 84.1738224029541,
+        "avg_alpha": 42.17177939414978,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/kexico_short.png"
+      },
+      "mac_kek": {
+        "filename": "mac_kek.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.5580759048461914,
+        "transparency_percent": 85.494065284729,
+        "avg_alpha": 38.018391132354736,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/mac_kek.png"
+      },
+      "nutmeg": {
+        "filename": "nutmeg.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.5675573348999023,
+        "transparency_percent": 88.51029872894287,
+        "avg_alpha": 37.383437156677246,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/nutmeg.png"
+      },
+      "trippy_hippie": {
+        "filename": "trippy_hippie.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.7282543182373047,
+        "transparency_percent": 87.41669654846191,
+        "avg_alpha": 37.23929476737976,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/trippy_hippie.png"
+      },
+      "wizard": {
+        "filename": "wizard.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 1.0266380310058594,
+        "transparency_percent": 78.39808464050293,
+        "avg_alpha": 55.741520166397095,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/wizard.png"
+      },
+      "worker": {
+        "filename": "worker.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.786865234375,
+        "transparency_percent": 84.15846824645996,
+        "avg_alpha": 42.91487169265747,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/clothes/worker.png"
+      }
+    },
+    "eyes": {
+      "baked": {
+        "filename": "baked.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.12939167022705078,
+        "transparency_percent": 98.81916046142578,
+        "avg_alpha": 3.071460723876953,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/baked.png"
+      },
+      "based": {
+        "filename": "based.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.15124893188476562,
+        "transparency_percent": 98.82164001464844,
+        "avg_alpha": 3.0652353763580322,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/based.png"
+      },
+      "blue": {
+        "filename": "blue.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.1502666473388672,
+        "transparency_percent": 98.83248805999756,
+        "avg_alpha": 3.0857787132263184,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/blue.png"
+      },
+      "confused": {
+        "filename": "confused.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.12334728240966797,
+        "transparency_percent": 98.82164001464844,
+        "avg_alpha": 3.0652353763580322,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/confused.png"
+      },
+      "cyan": {
+        "filename": "cyan.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.11896133422851562,
+        "transparency_percent": 98.8353967666626,
+        "avg_alpha": 3.066685914993286,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/cyan.png"
+      },
+      "diabolic": {
+        "filename": "diabolic.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.16671371459960938,
+        "transparency_percent": 98.82164001464844,
+        "avg_alpha": 3.0652353763580322,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/diabolic.png"
+      },
+      "straight": {
+        "filename": "straight.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.10965156555175781,
+        "transparency_percent": 98.80268573760986,
+        "avg_alpha": 3.106489419937134,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/straight.png"
+      },
+      "wrecked": {
+        "filename": "wrecked.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.11594104766845703,
+        "transparency_percent": 98.82164001464844,
+        "avg_alpha": 3.0652353763580322,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/eyes/wrecked.png"
+      }
+    },
+    "glasses": {
+      "AIagent": {
+        "filename": "AIagent.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.26711463928222656,
+        "transparency_percent": 96.55706882476807,
+        "avg_alpha": 9.517803430557251,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses/AIagent.png"
+      },
+      "patched": {
+        "filename": "patched.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.1631603240966797,
+        "transparency_percent": 98.25868606567383,
+        "avg_alpha": 4.574495077133179,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses/patched.png"
+      },
+      "pixel": {
+        "filename": "pixel.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.09224700927734375,
+        "transparency_percent": 98.21443557739258,
+        "avg_alpha": 4.719870090484619,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses/pixel.png"
+      },
+      "radioactive": {
+        "filename": "radioactive.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.19693660736083984,
+        "transparency_percent": 97.35171794891357,
+        "avg_alpha": 7.06058669090271,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses/radioactive.png"
+      }
+    },
+    "hat": {
+      "basedgod": {
+        "filename": "basedgod.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.4396324157714844,
+        "transparency_percent": 92.36383438110352,
+        "avg_alpha": 19.935572147369385,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/basedgod.png"
+      },
+      "chonk": {
+        "filename": "chonk.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.332733154296875,
+        "transparency_percent": 92.7819013595581,
+        "avg_alpha": 18.684580326080322,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/chonk.png"
+      },
+      "curly": {
+        "filename": "curly.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.4858875274658203,
+        "transparency_percent": 90.4106855392456,
+        "avg_alpha": 24.874043226242065,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/curly.png"
+      },
+      "fast_food": {
+        "filename": "fast_food.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.22720050811767578,
+        "transparency_percent": 96.97630405426025,
+        "avg_alpha": 8.240049123764038,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/fast_food.png"
+      },
+      "gigabrain": {
+        "filename": "gigabrain.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.38838863372802734,
+        "transparency_percent": 92.36383438110352,
+        "avg_alpha": 19.94056510925293,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/gigabrain.png"
+      },
+      "haunted": {
+        "filename": "haunted.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.21829891204833984,
+        "transparency_percent": 99.32703971862793,
+        "avg_alpha": 2.1436731815338135,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/haunted.png"
+      },
+      "headband": {
+        "filename": "headband.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.136383056640625,
+        "transparency_percent": 98.70572090148926,
+        "avg_alpha": 3.7051620483398438,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/headband.png"
+      },
+      "holy": {
+        "filename": "holy.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.26369380950927734,
+        "transparency_percent": 95.98462581634521,
+        "avg_alpha": 10.455842018127441,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/holy.png"
+      },
+      "mad_scientist": {
+        "filename": "mad_scientist.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.4605388641357422,
+        "transparency_percent": 92.36304759979248,
+        "avg_alpha": 19.95971179008484,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/mad_scientist.png"
+      },
+      "magic": {
+        "filename": "magic.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.4463376998901367,
+        "transparency_percent": 92.11502075195312,
+        "avg_alpha": 20.420421838760376,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/magic.png"
+      },
+      "maximus": {
+        "filename": "maximus.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.14006805419921875,
+        "transparency_percent": 99.19848442077637,
+        "avg_alpha": 2.127542495727539,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/maximus.png"
+      },
+      "orange": {
+        "filename": "orange.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.2938861846923828,
+        "transparency_percent": 95.10438442230225,
+        "avg_alpha": 12.91729211807251,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/orange.png"
+      },
+      "pirate": {
+        "filename": "pirate.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.5419635772705078,
+        "transparency_percent": 92.67704486846924,
+        "avg_alpha": 21.717715978622437,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/pirate.png"
+      },
+      "punk": {
+        "filename": "punk.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.35195255279541016,
+        "transparency_percent": 98.30055236816406,
+        "avg_alpha": 6.432569265365601,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/hat/punk.png"
+      }
+    },
+    "special": {
+      "hairy": {
+        "filename": "hairy.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.16747188568115234,
+        "transparency_percent": 98.73168468475342,
+        "avg_alpha": 3.443676471710205,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/special/hairy.png"
+      },
+      "honk": {
+        "filename": "honk.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.10537242889404297,
+        "transparency_percent": 99.28131103515625,
+        "avg_alpha": 1.8872315883636475,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/special/honk.png"
+      },
+      "rare_hairy": {
+        "filename": "rare_hairy.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.16903305053710938,
+        "transparency_percent": 98.83253574371338,
+        "avg_alpha": 3.2757351398468018,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/special/rare_hairy.png"
+      },
+      "rare_whitebeard": {
+        "filename": "rare_whitebeard.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.14935874938964844,
+        "transparency_percent": 98.84660243988037,
+        "avg_alpha": 3.3117921352386475,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/special/rare_whitebeard.png"
+      },
+      "spyware": {
+        "filename": "spyware.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.20878219604492188,
+        "transparency_percent": 98.95765781402588,
+        "avg_alpha": 4.168916940689087,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/special/spyware.png"
+      },
+      "whitebeard": {
+        "filename": "whitebeard.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.1509237289428711,
+        "transparency_percent": 98.76627922058105,
+        "avg_alpha": 3.4414901733398438,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/special/whitebeard.png"
+      }
+    },
+    "style": {
+      "demonic": {
+        "filename": "demonic.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.13800716400146484,
+        "transparency_percent": 98.88544082641602,
+        "avg_alpha": 2.996234655380249,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/style/demonic.png"
+      },
+      "goth": {
+        "filename": "goth.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.08908462524414062,
+        "transparency_percent": 99.5687484741211,
+        "avg_alpha": 1.144580364227295,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/style/goth.png"
+      },
+      "pierced": {
+        "filename": "pierced.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.07565498352050781,
+        "transparency_percent": 99.98128414154053,
+        "avg_alpha": 0.06903076171875,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/style/pierced.png"
+      }
+    },
+    "tattoo": {
+      "1337": {
+        "filename": "1337.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.07670307159423828,
+        "transparency_percent": 99.92878437042236,
+        "avg_alpha": 0.24335765838623047,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tattoo/1337.png"
+      },
+      "420": {
+        "filename": "420.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.07423877716064453,
+        "transparency_percent": 100.0,
+        "avg_alpha": 0.0863189697265625,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tattoo/420.png"
+      },
+      "iron_mike": {
+        "filename": "iron_mike.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.09616756439208984,
+        "transparency_percent": 99.3062973022461,
+        "avg_alpha": 1.7744438648223877,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tattoo/iron_mike.png"
+      },
+      "kekistan": {
+        "filename": "kekistan.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.07965755462646484,
+        "transparency_percent": 99.83620643615723,
+        "avg_alpha": 0.4643893241882324,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tattoo/kekistan.png"
+      },
+      "kekity_kek": {
+        "filename": "kekity_kek.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.08998870849609375,
+        "transparency_percent": 99.76499080657959,
+        "avg_alpha": 0.7940659523010254,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tattoo/kekity_kek.png"
+      }
+    },
+    "tools": {
+      "OG_reverse": {
+        "filename": "OG_reverse.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.13909244537353516,
+        "transparency_percent": 99.00293350219727,
+        "avg_alpha": 2.6658458709716797,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/OG_reverse.png"
+      },
+      "bamboo": {
+        "filename": "bamboo.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.2052459716796875,
+        "transparency_percent": 97.82257080078125,
+        "avg_alpha": 6.017324209213257,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/bamboo.png"
+      },
+      "blunt": {
+        "filename": "blunt.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.5164346694946289,
+        "transparency_percent": 99.82607364654541,
+        "avg_alpha": 6.436819076538086,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/blunt.png"
+      },
+      "coal": {
+        "filename": "coal.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.16202545166015625,
+        "transparency_percent": 98.83525371551514,
+        "avg_alpha": 3.148923873901367,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/coal.png"
+      },
+      "flipper": {
+        "filename": "flipper.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.21259784698486328,
+        "transparency_percent": 98.14891815185547,
+        "avg_alpha": 5.0334999561309814,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/flipper.png"
+      },
+      "golden_tickets": {
+        "filename": "golden_tickets.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.15285015106201172,
+        "transparency_percent": 99.37381744384766,
+        "avg_alpha": 1.8081750869750977,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/golden_tickets.png"
+      },
+      "pepepaint": {
+        "filename": "pepepaint.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.2083883285522461,
+        "transparency_percent": 98.2290267944336,
+        "avg_alpha": 4.713165044784546,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/pepepaint.png"
+      },
+      "pokemon": {
+        "filename": "pokemon.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.1280221939086914,
+        "transparency_percent": 99.47853088378906,
+        "avg_alpha": 1.5677430629730225,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/pokemon.png"
+      },
+      "reward": {
+        "filename": "reward.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.2491168975830078,
+        "transparency_percent": 98.01702499389648,
+        "avg_alpha": 5.982884645462036,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/reward.png"
+      },
+      "scythe": {
+        "filename": "scythe.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.49865245819091797,
+        "transparency_percent": 91.32428169250488,
+        "avg_alpha": 23.423012256622314,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/scythe.png"
+      },
+      "sorcerer": {
+        "filename": "sorcerer.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.394989013671875,
+        "transparency_percent": 96.63989543914795,
+        "avg_alpha": 9.041548490524292,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools/sorcerer.png"
+      }
+    },
+    "glasses_for_xray": {
+      "rare_Aiagent": {
+        "filename": "rare_Aiagent.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.2729063034057617,
+        "transparency_percent": 96.55706882476807,
+        "avg_alpha": 9.575076341629028,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses_for_xray/rare_Aiagent.png"
+      },
+      "rare_patched": {
+        "filename": "rare_patched.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.1155862808227539,
+        "transparency_percent": 98.81300926208496,
+        "avg_alpha": 3.1714532375335693,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses_for_xray/rare_patched.png"
+      },
+      "rare_pixel": {
+        "filename": "rare_pixel.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.09224796295166016,
+        "transparency_percent": 98.21443557739258,
+        "avg_alpha": 4.719870090484619,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses_for_xray/rare_pixel.png"
+      },
+      "rare_radioactive": {
+        "filename": "rare_radioactive.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.19916534423828125,
+        "transparency_percent": 97.35171794891357,
+        "avg_alpha": 7.11018443107605,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/glasses_for_xray/rare_radioactive.png"
+      }
+    },
+    "style_for_xray": {
+      "rare_demonic": {
+        "filename": "rare_demonic.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.1437978744506836,
+        "transparency_percent": 98.88749122619629,
+        "avg_alpha": 3.20001482963562,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/style_for_xray/rare_demonic.png"
+      },
+      "rare_goth": {
+        "filename": "rare_goth.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.08908462524414062,
+        "transparency_percent": 99.5687484741211,
+        "avg_alpha": 1.144580364227295,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/style_for_xray/rare_goth.png"
+      },
+      "rare_pierced": {
+        "filename": "rare_pierced.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.07656574249267578,
+        "transparency_percent": 99.98128414154053,
+        "avg_alpha": 0.0726320743560791,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/style_for_xray/rare_pierced.png"
+      }
+    },
+    "tools_for_xray": {
+      "Layer_55": {
+        "filename": "Layer_55.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.47572994232177734,
+        "transparency_percent": 92.11502075195312,
+        "avg_alpha": 21.133365392684937,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/Layer_55.png"
+      },
+      "rare_OG_reverse": {
+        "filename": "rare_OG_reverse.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.1730937957763672,
+        "transparency_percent": 99.00293350219727,
+        "avg_alpha": 3.1801180839538574,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_OG_reverse.png"
+      },
+      "rare_bamboo": {
+        "filename": "rare_bamboo.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.22052764892578125,
+        "transparency_percent": 97.82257080078125,
+        "avg_alpha": 6.314981698989868,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_bamboo.png"
+      },
+      "rare_blunt": {
+        "filename": "rare_blunt.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.5189237594604492,
+        "transparency_percent": 99.82607364654541,
+        "avg_alpha": 6.501875638961792,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_blunt.png"
+      },
+      "rare_coal": {
+        "filename": "rare_coal.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.17261314392089844,
+        "transparency_percent": 98.83525371551514,
+        "avg_alpha": 3.7489218711853027,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_coal.png"
+      },
+      "rare_flipper": {
+        "filename": "rare_flipper.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.219268798828125,
+        "transparency_percent": 98.14887046813965,
+        "avg_alpha": 5.418519496917725,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_flipper.png"
+      },
+      "rare_golden_tickets": {
+        "filename": "rare_golden_tickets.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.16143321990966797,
+        "transparency_percent": 99.35836791992188,
+        "avg_alpha": 2.2821455001831055,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_golden_tickets.png"
+      },
+      "rare_pepepaint": {
+        "filename": "rare_pepepaint.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.21411991119384766,
+        "transparency_percent": 98.22609424591064,
+        "avg_alpha": 5.095659255981445,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_pepepaint.png"
+      },
+      "rare_pokemon": {
+        "filename": "rare_pokemon.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.13811492919921875,
+        "transparency_percent": 99.47853088378906,
+        "avg_alpha": 2.2575783729553223,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_pokemon.png"
+      },
+      "rare_reward": {
+        "filename": "rare_reward.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.2628145217895508,
+        "transparency_percent": 98.01702499389648,
+        "avg_alpha": 6.447390079498291,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_reward.png"
+      },
+      "rare_scythe": {
+        "filename": "rare_scythe.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.5111217498779297,
+        "transparency_percent": 91.32428169250488,
+        "avg_alpha": 23.63248109817505,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_scythe.png"
+      },
+      "rare_sorcerer": {
+        "filename": "rare_sorcerer.png",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGBA",
+        "has_alpha": true,
+        "size_mb": 0.4365043640136719,
+        "transparency_percent": 96.63989543914795,
+        "avg_alpha": 9.437248706817627,
+        "is_background": false,
+        "full_path": "/Users/seman/desktop-transfer/randomizer/tools_for_xray/rare_sorcerer.png"
+      }
+    }
+  },
+  "statistics": {
+    "total_templates_needed": 43
+  },
+  "exceptions": {
+    "RIP": {
+      "no_tools": true,
+      "no_hat": true,
+      "allowed_layers": [
+        "background",
+        "body",
+        "tattoo",
+        "style",
+        "clothes",
+        "eyes",
+        "glasses",
+        "special"
+      ]
+    },
+    "x-ray": {
+      "no_eyes": true,
+      "no_astral_background": true,
+      "use_special_glasses": true,
+      "use_special_style": true,
+      "use_special_tools": true,
+      "special_folders": {
+        "glasses": "glasses_for_xray",
+        "style": "style_for_xray",
+        "tools": "tools_for_xray"
+      }
+    }
+  },
+  "animation_potential": {
+    "body": {
+      "priority": "HIGH",
+      "animations": [
+        "breathing",
+        "idle_sway",
+        "glow"
+      ],
+      "estimated_templates": 8,
+      "notes": "Main character animation, most important"
+    },
+    "eyes": {
+      "priority": "HIGH",
+      "animations": [
+        "blink",
+        "look_around",
+        "glow"
+      ],
+      "estimated_templates": 12,
+      "notes": "Critical for bringing character to life (except x-ray)"
+    },
+    "background": {
+      "priority": "MEDIUM",
+      "animations": [
+        "parallax",
+        "color_shift",
+        "particles"
+      ],
+      "estimated_templates": 5,
+      "notes": "Selective animation for dynamic backgrounds"
+    },
+    "hat": {
+      "priority": "MEDIUM",
+      "animations": [
+        "bounce",
+        "tilt"
+      ],
+      "estimated_templates": 3,
+      "notes": "Simple physics-based movement (except RIP)"
+    },
+    "glasses": {
+      "priority": "LOW",
+      "animations": [
+        "shimmer",
+        "lens_flare"
+      ],
+      "estimated_templates": 2,
+      "notes": "Subtle effects only"
+    },
+    "tools": {
+      "priority": "MEDIUM",
+      "animations": [
+        "swing",
+        "rotate",
+        "glow"
+      ],
+      "estimated_templates": 4,
+      "notes": "Depends on tool type (except RIP)"
+    },
+    "special": {
+      "priority": "HIGH",
+      "animations": [
+        "particles",
+        "glow",
+        "custom"
+      ],
+      "estimated_templates": 4,
+      "notes": "Effect-specific animations"
+    },
+    "clothes": {
+      "priority": "LOW",
+      "animations": [
+        "fabric_wave"
+      ],
+      "estimated_templates": 2,
+      "notes": "Very subtle movement only"
+    },
+    "tattoo": {
+      "priority": "LOW",
+      "animations": [
+        "shimmer",
+        "pulse"
+      ],
+      "estimated_templates": 2,
+      "notes": "Subtle glow or color effects"
+    },
+    "style": {
+      "priority": "LOW",
+      "animations": [
+        "glow"
+      ],
+      "estimated_templates": 1,
+      "notes": "Minimal animation needed"
+    }
+  }
+}
