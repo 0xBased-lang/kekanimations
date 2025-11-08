@@ -1,0 +1,54 @@
+{
+  "comfyui_server": "127.0.0.1:8188",
+  "base_workflow": "workflows/01_simple_nft_animation_m1.json",
+  "input_dir": "input_test_nfts",
+  "output_dir": "experiments",
+  "database": "experiments.db",
+  "checkpoint_file": "progress_checkpoint.json",
+
+  "resource_limits": {
+    "min_free_memory_gb": 2.0,
+    "min_free_disk_gb": 5.0,
+    "resource_check_interval": 10
+  },
+
+  "retry_settings": {
+    "max_retries": 3,
+    "retry_delay_base": 2.0
+  },
+
+  "default_positive_prompt": "high quality, pepe frog character, detailed, colorful, meme art, (animated:1.2), subtle motion, smooth animation, breathing, living portrait",
+
+  "default_negative_prompt": "deformed, distorted, disfigured, bad anatomy, wrong colors, extra limbs, extra eyes, mutation, bad proportions, flickering, temporal inconsistency, blurry, static, frozen",
+
+  "notifications": {
+    "telegram_enabled": false,
+    "telegram_bot_token": "",
+    "telegram_chat_id": "",
+    "notify_every_n_tests": 50
+  },
+
+  "testing_phases": {
+    "phase1": {
+      "enabled": true,
+      "description": "Latin Hypercube Sampling - Broad parameter exploration",
+      "n_samples": 50,
+      "nfts_to_test": 1,
+      "estimated_hours": 4
+    },
+    "phase2": {
+      "enabled": true,
+      "description": "Focused Factorial - Refined parameter testing",
+      "combinations": 24,
+      "nfts_to_test": 5,
+      "estimated_hours": 10
+    },
+    "phase3": {
+      "enabled": true,
+      "description": "Validation - Best configs across NFT types",
+      "configurations": 3,
+      "nfts_to_test": 20,
+      "estimated_hours": 6
+    }
+  }
+}

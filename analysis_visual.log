@@ -1,0 +1,5 @@
+usage: build_database.py [-h] --metadata-dir METADATA_DIR
+                         --images-dir IMAGES_DIR --rarity-report RARITY_REPORT
+                         --rankings RANKINGS [--db-path DB_PATH]
+                         [--skip-visual]
+build_database.py: error: the following arguments are required: --metadata-dir, --images-dir, --rarity-report, --rankings

@@ -1,0 +1,20 @@
+================================================================================
+KEKTECH NFT Collection - Trait Correlation Analysis
+================================================================================
+
+📈 Calculating trait statistics...
+   ✅ Trait statistics calculated and stored
+📄 Generating correlation report: reports/trait_correlation_report.md
+📊 Calculating trait correlation matrix...
+   Found 11 significant trait correlations
+   ✅ Trait correlations stored in database
+🔍 Finding unique trait combinations...
+   Found 4200 NFTs with unique trait combinations (100.0%)
+   Found 0 shared trait combinations
+💎 Analyzing rarity drivers...
+   Identified 55 high-impact trait values
+   ✅ Report saved: reports/trait_correlation_report.md
+
+================================================================================
+✅ Trait correlation analysis complete!
+================================================================================

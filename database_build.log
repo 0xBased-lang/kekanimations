@@ -1,0 +1,46 @@
+================================================================================
+KEKTECH NFT Collection - Simplified Database Builder
+================================================================================
+
+✅ Connected to database
+
+📊 Loading database schema...
+   ✅ Schema loaded
+
+📈 Loading rarity rankings...
+   ✅ Loaded 245 rankings
+
+📦 Loading NFT metadata...
+   Found 4200 metadata files
+   Progress: 500/4200 NFTs loaded...
+   Progress: 1000/4200 NFTs loaded...
+   Progress: 1500/4200 NFTs loaded...
+   Progress: 2000/4200 NFTs loaded...
+   Progress: 2500/4200 NFTs loaded...
+   Progress: 3000/4200 NFTs loaded...
+   Progress: 3500/4200 NFTs loaded...
+   Progress: 4000/4200 NFTs loaded...
+   ✅ Loaded 4200 NFTs
+   ✅ Loaded 46200 trait records
+
+📊 Calculating trait statistics...
+   ✅ Trait statistics calculated
+
+================================================================================
+DATABASE SUMMARY
+================================================================================
+✅ Total NFTs: 4200
+✅ NFTs with images: 4200
+✅ Total trait records: 46200
+✅ Trait categories: 11
+
+Rarity Distribution:
+  ultra_legendary   13 ( 0.31%)
+  legendary         29 ( 0.69%)
+  epic              83 ( 1.98%)
+  rare             120 ( 2.86%)
+  common          3955 (94.17%)
+
+================================================================================
+✅ Database build complete!
+================================================================================

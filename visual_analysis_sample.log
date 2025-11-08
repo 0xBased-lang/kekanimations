@@ -1,0 +1,32 @@
+⚠️  Advanced analysis libraries not installed. Using basic analysis only.
+   Install with: pip install opencv-python scikit-learn scikit-image scipy
+🧪 Running sample analysis on 10 NFTs...
+================================================================================
+KEKTECH NFT Collection - Visual Analysis
+================================================================================
+
+⚠️  Basic analysis only (PIL)
+
+📊 Analyzing 10 NFT images...
+
+   ❌ Failed to analyze NFT #0: table visual_features has no column named width
+   ❌ Failed to analyze NFT #1: table visual_features has no column named width
+   ❌ Failed to analyze NFT #2: table visual_features has no column named width
+   ❌ Failed to analyze NFT #3: table visual_features has no column named width
+   ❌ Failed to analyze NFT #4: table visual_features has no column named width
+   ❌ Failed to analyze NFT #5: table visual_features has no column named width
+   ❌ Failed to analyze NFT #6: table visual_features has no column named width
+   ❌ Failed to analyze NFT #7: table visual_features has no column named width
+   ❌ Failed to analyze NFT #8: table visual_features has no column named width
+   ❌ Failed to analyze NFT #9: table visual_features has no column named width
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
+✅ Successfully analyzed: 0 NFTs
+❌ Failed: 10 NFTs
+⏱️  Total time: 0.0 minutes (0.00 hours)
+📊 Average rate: 0.00 NFTs/second
+================================================================================
+
+✅ Visual analysis complete! Check database/nft_master_database.db
