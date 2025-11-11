@@ -1,0 +1,52 @@
+{
+  "name": "KEKTECH#10 Lambo Bags v2.0 🧙",
+  "description": "4200 𝕂Ǝ𝕂丅ᵉ匚🅷 Artifacts: digital masterpieces blending tech and meme fun, hand-drawn by 𝔹enzo𝔹ert & princess 𝔹u𝔹𝔹legum. An homage to OG Pepecoin 🐸👑",
+  "image": "https://kektech.xyz/api/image/10",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "shining"
+    },
+    {
+      "trait_type": "Body",
+      "value": "normie"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "none"
+    },
+    {
+      "trait_type": "Style",
+      "value": "none"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "kexico"
+    },
+    {
+      "trait_type": "Tools",
+      "value": "blunt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "wrecked"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "none"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "gigabrain"
+    },
+    {
+      "trait_type": "Special",
+      "value": "none"
+    },
+    {
+      "trait_type": "Easter Eggs",
+      "value": "none"
+    }
+  ],
+  "gateway_url": "https://kektech.xyz/api/image/10"
+}

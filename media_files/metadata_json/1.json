@@ -1,0 +1,52 @@
+{
+  "name": "KEKTECH#1 Not Your Wise",
+  "description": "4200 𝕂Ǝ𝕂丅ᵉ匚🅷 Artifacts: digital masterpieces blending tech and meme fun, hand-drawn by 𝔹enzo𝔹ert & princess 𝔹u𝔹𝔹legum. An homage to OG Pepecoin 🐸👑",
+  "image": "https://kektech.xyz/api/image/1",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "harmony"
+    },
+    {
+      "trait_type": "Body",
+      "value": "ghastly"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "none"
+    },
+    {
+      "trait_type": "Style",
+      "value": "goth"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "wizard"
+    },
+    {
+      "trait_type": "Tools",
+      "value": "bamboo"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "wrecked"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "none"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "orange"
+    },
+    {
+      "trait_type": "Special",
+      "value": "whitebeard"
+    },
+    {
+      "trait_type": "Easter Eggs",
+      "value": "none"
+    }
+  ],
+  "gateway_url": "https://kektech.xyz/api/image/1"
+}
