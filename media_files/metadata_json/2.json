@@ -1,0 +1,52 @@
+{
+  "name": "KEKTECH#2 Soul Chad",
+  "description": "4200 𝕂Ǝ𝕂丅ᵉ匚🅷 Artifacts: digital masterpieces blending tech and meme fun, hand-drawn by 𝔹enzo𝔹ert & princess 𝔹u𝔹𝔹legum. An homage to OG Pepecoin 🐸👑",
+  "image": "https://kektech.xyz/api/image/2",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "shining"
+    },
+    {
+      "trait_type": "Body",
+      "value": "ghastly"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "none"
+    },
+    {
+      "trait_type": "Style",
+      "value": "none"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "trippy_hippie"
+    },
+    {
+      "trait_type": "Tools",
+      "value": "scythe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "straight"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "radioactive"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "none"
+    },
+    {
+      "trait_type": "Special",
+      "value": "none"
+    },
+    {
+      "trait_type": "Easter Eggs",
+      "value": "none"
+    }
+  ],
+  "gateway_url": "https://kektech.xyz/api/image/2"
+}

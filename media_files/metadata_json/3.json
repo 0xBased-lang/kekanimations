@@ -1,0 +1,52 @@
+{
+  "name": "KEKTECH#3 Just Dope",
+  "description": "4200 𝕂Ǝ𝕂丅ᵉ匚🅷 Artifacts: digital masterpieces blending tech and meme fun, hand-drawn by 𝔹enzo𝔹ert & princess 𝔹u𝔹𝔹legum. An homage to OG Pepecoin 🐸👑",
+  "image": "https://kektech.xyz/api/image/3",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "void"
+    },
+    {
+      "trait_type": "Body",
+      "value": "normie"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "none"
+    },
+    {
+      "trait_type": "Style",
+      "value": "none"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "green"
+    },
+    {
+      "trait_type": "Tools",
+      "value": "reward"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "blue"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "none"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "chonk"
+    },
+    {
+      "trait_type": "Special",
+      "value": "whitebeard"
+    },
+    {
+      "trait_type": "Easter Eggs",
+      "value": "limited edition free mint"
+    }
+  ],
+  "gateway_url": "https://kektech.xyz/api/image/3"
+}

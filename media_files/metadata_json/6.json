@@ -1,0 +1,52 @@
+{
+  "name": "KEKTECH#6 Gigabrain Honk 🍌",
+  "description": "4200 𝕂Ǝ𝕂丅ᵉ匚🅷 Artifacts: digital masterpieces blending tech and meme fun, hand-drawn by 𝔹enzo𝔹ert & princess 𝔹u𝔹𝔹legum. An homage to OG Pepecoin 🐸👑",
+  "image": "https://kektech.xyz/api/image/6",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "astral"
+    },
+    {
+      "trait_type": "Body",
+      "value": "normie"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "1337"
+    },
+    {
+      "trait_type": "Style",
+      "value": "goth"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "trippy_hippie"
+    },
+    {
+      "trait_type": "Tools",
+      "value": "scythe"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "straight"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "pixel"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "none"
+    },
+    {
+      "trait_type": "Special",
+      "value": "honk"
+    },
+    {
+      "trait_type": "Easter Eggs",
+      "value": "none"
+    }
+  ],
+  "gateway_url": "https://kektech.xyz/api/image/6"
+}

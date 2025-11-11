@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Test results and coverage
+test-results/
+playwright-report/
+coverage/
+
+# Output and temporary files
+output/
+final_output/
+screenshots/
+temp_*.png
+*.gif
+
+# Exclude bulk media files but keep samples
+media_files/nft_images/*
+!media_files/nft_images/1.png
+!media_files/nft_images/2.png
+!media_files/nft_images/3.png
+!media_files/nft_images/4.png
+!media_files/nft_images/5.png
+!media_files/nft_images/6.png
+!media_files/nft_images/7.png
+!media_files/nft_images/8.png
+!media_files/nft_images/9.png
+!media_files/nft_images/10.png
+
+media_files/metadata_json/*
+!media_files/metadata_json/1.json
+!media_files/metadata_json/2.json
+!media_files/metadata_json/3.json
+!media_files/metadata_json/4.json
+!media_files/metadata_json/5.json
+!media_files/metadata_json/6.json
+!media_files/metadata_json/7.json
+!media_files/metadata_json/8.json
+!media_files/metadata_json/9.json
+!media_files/metadata_json/10.json
+
+# Keep all nft_layers - these are the source layer files
+# (no exclusion for media_files/nft_layers/)
+
+# Mac system files
+.DS_Store
+
+# Frame analysis and masks (generated files)
+frame_analysis/
+masks/

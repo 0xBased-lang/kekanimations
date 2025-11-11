@@ -1,0 +1,362 @@
+{
+  "last_node_id": 26,
+  "last_link_id": 42,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "CheckpointLoaderSimple",
+      "pos": [50, 300],
+      "size": {"0": 350, "1": 100},
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {"name": "MODEL", "type": "MODEL", "links": [2], "slot_index": 0},
+        {"name": "CLIP", "type": "CLIP", "links": [3, 4], "slot_index": 1},
+        {"name": "VAE", "type": "VAE", "links": [39], "slot_index": 2}
+      ],
+      "properties": {"Node name for S&R": "CheckpointLoaderSimple"},
+      "widgets_values": ["v1-5-pruned-emaonly.safetensors"]
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [50, 50],
+      "size": {"0": 350, "1": 200},
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [20], "slot_index": 0},
+        {"name": "MASK", "type": "MASK", "links": null}
+      ],
+      "properties": {"Node name for S&R": "LoadImage"},
+      "widgets_values": ["temp_normie_rgb.png", "image"],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 20,
+      "type": "LayerUtility: ImageRemoveAlpha",
+      "pos": [450, 50],
+      "size": {"0": 320, "1": 120},
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {"name": "RGBA_image", "type": "IMAGE", "link": 20}
+      ],
+      "outputs": [
+        {"name": "RGB_image", "type": "IMAGE", "links": [21, 30], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "LayerUtility: ImageRemoveAlpha"},
+      "widgets_values": [true, "#FFFFFF"],
+      "title": "Remove Alpha (White BG)",
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 21,
+      "type": "CannyEdgePreprocessor",
+      "pos": [450, 200],
+      "size": {"0": 320, "1": 100},
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {"name": "image", "type": "IMAGE", "link": 21}
+      ],
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [31], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "CannyEdgePreprocessor"},
+      "widgets_values": [100, 200, 512],
+      "title": "Canny Edge Detection"
+    },
+    {
+      "id": 22,
+      "type": "ControlNetLoader",
+      "pos": [450, 350],
+      "size": {"0": 320, "1": 60},
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {"name": "CONTROL_NET", "type": "CONTROL_NET", "links": [32], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "ControlNetLoader"},
+      "widgets_values": ["control_v11p_sd15_canny.pth"]
+    },
+    {
+      "id": 23,
+      "type": "ControlNetApplyAdvanced",
+      "pos": [850, 300],
+      "size": {"0": 350, "1": 170},
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {"name": "positive", "type": "CONDITIONING", "link": 35},
+        {"name": "negative", "type": "CONDITIONING", "link": 36},
+        {"name": "control_net", "type": "CONTROL_NET", "link": 32},
+        {"name": "image", "type": "IMAGE", "link": 31}
+      ],
+      "outputs": [
+        {"name": "positive", "type": "CONDITIONING", "links": [33], "slot_index": 0},
+        {"name": "negative", "type": "CONDITIONING", "links": [34], "slot_index": 1}
+      ],
+      "properties": {"Node name for S&R": "ControlNetApplyAdvanced"},
+      "widgets_values": [0.9, 0.0, 1.0],
+      "title": "Apply ControlNet (90% strength)"
+    },
+    {
+      "id": 3,
+      "type": "CLIPTextEncode",
+      "pos": [450, 470],
+      "size": {"0": 350, "1": 150},
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {"name": "clip", "type": "CLIP", "link": 3}
+      ],
+      "outputs": [
+        {"name": "CONDITIONING", "type": "CONDITIONING", "links": [35], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "CLIPTextEncode"},
+      "widgets_values": ["a cartoon frog character wearing a red cap with subtle breathing motion, idle animation, smooth movement, high quality, professional animation"],
+      "title": "Positive Prompt",
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 4,
+      "type": "CLIPTextEncode",
+      "pos": [450, 650],
+      "size": {"0": 350, "1": 150},
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {"name": "clip", "type": "CLIP", "link": 4}
+      ],
+      "outputs": [
+        {"name": "CONDITIONING", "type": "CONDITIONING", "links": [36], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "CLIPTextEncode"},
+      "widgets_values": ["distorted, morphing, blurry, low quality, static, no motion, broken, artifacts, glitches, deformed"],
+      "title": "Negative Prompt",
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 5,
+      "type": "VAEEncode",
+      "pos": [850, 50],
+      "size": {"0": 210, "1": 46},
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {"name": "pixels", "type": "IMAGE", "link": 30},
+        {"name": "vae", "type": "VAE", "link": 39}
+      ],
+      "outputs": [
+        {"name": "LATENT", "type": "LATENT", "links": [37], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "VAEEncode"}
+    },
+    {
+      "id": 10,
+      "type": "ADE_AnimateDiffLoaderGen1",
+      "pos": [850, 150],
+      "size": {"0": 350, "1": 120},
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {"name": "model", "type": "MODEL", "link": 2}
+      ],
+      "outputs": [
+        {"name": "MODEL", "type": "MODEL", "links": [12], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "ADE_AnimateDiffLoaderGen1"},
+      "widgets_values": ["mm_sd_v15_v2.ckpt", "sqrt_linear (AnimateDiff)"],
+      "title": "AnimateDiff Loader",
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 12,
+      "type": "KSampler",
+      "pos": [1250, 200],
+      "size": {"0": 315, "1": 262},
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {"name": "model", "type": "MODEL", "link": 12},
+        {"name": "positive", "type": "CONDITIONING", "link": 33},
+        {"name": "negative", "type": "CONDITIONING", "link": 34},
+        {"name": "latent_image", "type": "LATENT", "link": 37}
+      ],
+      "outputs": [
+        {"name": "LATENT", "type": "LATENT", "links": [38], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "KSampler"},
+      "widgets_values": [
+        42,
+        "fixed",
+        15,
+        7.0,
+        "dpmpp_2m",
+        "karras",
+        0.25
+      ],
+      "title": "KSampler (denoise 0.25)",
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 13,
+      "type": "VAEDecode",
+      "pos": [1600, 200],
+      "size": {"0": 210, "1": 46},
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {"name": "samples", "type": "LATENT", "link": 38},
+        {"name": "vae", "type": "VAE", "link": 15}
+      ],
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [40], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "VAEDecode"}
+    },
+    {
+      "id": 14,
+      "type": "VAELoader",
+      "pos": [1600, 300],
+      "size": {"0": 315, "1": 60},
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {"name": "VAE", "type": "VAE", "links": [15], "slot_index": 0}
+      ],
+      "properties": {"Node name for S&R": "VAELoader"},
+      "widgets_values": ["vae-ft-mse-840000-ema-pruned.safetensors"]
+    },
+    {
+      "id": 24,
+      "type": "ADE_AnimateDiffSettings",
+      "pos": [850, 500],
+      "size": {"0": 350, "1": 200},
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "outputs": [
+        {"name": "settings", "type": "MOTION_MODEL_SETTINGS", "links": null}
+      ],
+      "properties": {"Node name for S&R": "ADE_AnimateDiffSettings"},
+      "widgets_values": [8, 4, 1, "uniform", 0.4, false],
+      "title": "AnimateDiff Settings (8 frames for M1)"
+    },
+    {
+      "id": 25,
+      "type": "VHS_VideoCombine",
+      "pos": [1850, 200],
+      "size": {"0": 400, "1": 400},
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {"name": "images", "type": "IMAGE", "link": 40},
+        {"name": "audio", "type": "VHS_AUDIO", "link": null}
+      ],
+      "outputs": [
+        {"name": "Filenames", "type": "VHS_FILENAMES", "links": null}
+      ],
+      "properties": {"Node name for S&R": "VHS_VideoCombine"},
+      "widgets_values": {
+        "frame_rate": 12,
+        "loop_count": 0,
+        "filename_prefix": "quickfix_animated",
+        "format": "image/gif",
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {"hidden": false, "paused": false, "params": {}}
+      },
+      "title": "Save as GIF"
+    },
+    {
+      "id": 26,
+      "type": "Note",
+      "pos": [50, 850],
+      "size": {"0": 600, "1": 200},
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "properties": {"text": ""},
+      "widgets_values": ["QUICK FIX WORKFLOW - Solves Transparency Issues\n\nKey Changes:\n1. RemoveImageAlpha: Converts RGBA → RGB with white background\n2. ControlNet Canny: 90% strength for character preservation  \n3. Denoise: Lowered to 0.25 (was 0.45)\n4. Motion Scale: Set to 0.4 for subtle animation\n\nExpected Results:\n- Character fully preserved\n- Subtle breathing/idle animation\n- No morphing or distortion\n- Can restore transparency in post-processing"],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [2, 1, 0, 10, 0, "MODEL"],
+    [3, 1, 1, 3, 0, "CLIP"],
+    [4, 1, 1, 4, 0, "CLIP"],
+    [12, 10, 0, 12, 0, "MODEL"],
+    [15, 14, 0, 13, 1, "VAE"],
+    [20, 2, 0, 20, 0, "IMAGE"],
+    [21, 20, 0, 21, 0, "IMAGE"],
+    [30, 20, 0, 5, 0, "IMAGE"],
+    [31, 21, 0, 23, 3, "IMAGE"],
+    [32, 22, 0, 23, 2, "CONTROL_NET"],
+    [33, 23, 0, 12, 1, "CONDITIONING"],
+    [34, 23, 1, 12, 2, "CONDITIONING"],
+    [35, 3, 0, 23, 0, "CONDITIONING"],
+    [36, 4, 0, 23, 1, "CONDITIONING"],
+    [37, 5, 0, 12, 3, "LATENT"],
+    [38, 12, 0, 13, 0, "LATENT"],
+    [39, 1, 2, 5, 1, "VAE"],
+    [40, 13, 0, 25, 0, "IMAGE"]
+  ],
+  "groups": [
+    {
+      "title": "1. Load & Prepare Image",
+      "bounding": [40, -30, 740, 250],
+      "color": "#3f789e",
+      "locked": false
+    },
+    {
+      "title": "2. ControlNet Setup",
+      "bounding": [440, 120, 340, 320],
+      "color": "#8A8",
+      "locked": false
+    },
+    {
+      "title": "3. Prompts",
+      "bounding": [440, 390, 370, 430],
+      "color": "#A88",
+      "locked": false
+    },
+    {
+      "title": "4. Generation with ControlNet",
+      "bounding": [840, -30, 740, 500],
+      "color": "#88A",
+      "locked": false
+    },
+    {
+      "title": "5. Output",
+      "bounding": [1590, 120, 680, 500],
+      "color": "#b06634",
+      "locked": false
+    }
+  ],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}

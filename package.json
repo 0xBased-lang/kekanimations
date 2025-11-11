@@ -1,0 +1,35 @@
+{
+  "name": "kekanimations",
+  "version": "1.0.0",
+  "description": "This repository contains ComfyUI workflows and resources for creating animations from the KEKTECH NFT collection (4,200 unique Pepe NFTs).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report test-results/html",
+    "test:sample": "playwright test sample-validation.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xBased-lang/kekanimations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/0xBased-lang/kekanimations/issues"
+  },
+  "homepage": "https://github.com/0xBased-lang/kekanimations#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "glob": "^11.0.3",
+    "ipfs-http-client": "^60.0.1",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.5"
+  }
+}

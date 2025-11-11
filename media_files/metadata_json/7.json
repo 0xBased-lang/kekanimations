@@ -1,0 +1,52 @@
+{
+  "name": "KEKTECH#7 Ethereal Energy 9000",
+  "description": "4200 𝕂Ǝ𝕂丅ᵉ匚🅷 Artifacts: digital masterpieces blending tech and meme fun, hand-drawn by 𝔹enzo𝔹ert & princess 𝔹u𝔹𝔹legum. An homage to OG Pepecoin 🐸👑",
+  "image": "https://kektech.xyz/api/image/7",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "astral"
+    },
+    {
+      "trait_type": "Body",
+      "value": "ghastly"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "none"
+    },
+    {
+      "trait_type": "Style",
+      "value": "pierced"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "brain_owner"
+    },
+    {
+      "trait_type": "Tools",
+      "value": "bamboo"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "blue"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "none"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "mad_scientist"
+    },
+    {
+      "trait_type": "Special",
+      "value": "none"
+    },
+    {
+      "trait_type": "Easter Eggs",
+      "value": "early bird"
+    }
+  ],
+  "gateway_url": "https://kektech.xyz/api/image/7"
+}

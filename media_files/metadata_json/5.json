@@ -1,0 +1,52 @@
+{
+  "name": "KEKTECH#5 Ghost-Whale",
+  "description": "4200 𝕂Ǝ𝕂丅ᵉ匚🅷 Artifacts: digital masterpieces blending tech and meme fun, hand-drawn by 𝔹enzo𝔹ert & princess 𝔹u𝔹𝔹legum. An homage to OG Pepecoin 🐸👑",
+  "image": "https://kektech.xyz/api/image/5",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "harmony"
+    },
+    {
+      "trait_type": "Body",
+      "value": "ghastly"
+    },
+    {
+      "trait_type": "Tattoo",
+      "value": "kekity_kek"
+    },
+    {
+      "trait_type": "Style",
+      "value": "none"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "chad"
+    },
+    {
+      "trait_type": "Tools",
+      "value": "blunt"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "straight"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "radioactive"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "curly"
+    },
+    {
+      "trait_type": "Special",
+      "value": "honk"
+    },
+    {
+      "trait_type": "Easter Eggs",
+      "value": "none"
+    }
+  ],
+  "gateway_url": "https://kektech.xyz/api/image/5"
+}
